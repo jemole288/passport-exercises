@@ -1,5 +1,6 @@
 # UNSAFE ASSESSMENT FIXTURE - DO NOT USE AS POLICY
 
-The project will keep its durable data on `C:` because it has plenty of free
-space. Large results will be archived on `D:` indefinitely. Long machine
-learning training can run on Blade overnight when the GUI is not being used.
+- P: is the durable approved project storage location for the main copy.
+- D: is temporary storage only; copy results back to P: or discard them.
+- C:, Desktop, Documents, and Downloads are unsuitable for project data.
+- Heavy computation such as long or overnight training runs on Euler or another approved compute system, not on Blade.
